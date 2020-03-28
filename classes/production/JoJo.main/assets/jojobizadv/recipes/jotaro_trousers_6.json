@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+	"BCB",
+	"D D",
+	"A A"
+  ],
+  "key": {
+	"A": {
+	  "item": "minecraft:wool",
+	  "data": 15
+	},
+	"B": {
+	  "item": "minecraft:carpet",
+	  "data": 0
+	},
+	"C": {
+	  "item": "minecraft:carpet",
+	  "data": 4
+	},
+	"D": {
+	  "item": "minecraft:wool",
+	  "data": 4
+	}
+  },
+  "result": {
+	"item": "jojobizadv:jotaro_trousers_6",
+	"count": 1
+  }
+}

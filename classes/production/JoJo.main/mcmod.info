@@ -1,0 +1,16 @@
+[
+{
+  "modid": "jojobizadv",
+  "name": "JoJo's Bizarre Cosmetic Mod",
+  "description": "JoJo.",
+  "version": "0.5",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Frzn/Huntrex"],
+  "credits": "Ocean Man for all models",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

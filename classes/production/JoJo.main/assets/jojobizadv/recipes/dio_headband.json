@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+	"ABA"
+  ],
+  "key": {
+	"A": {
+	  "item": "minecraft:leather"
+	},
+	"B": {
+	  "item": "minecraft:wool",
+	  "data": 13
+	}
+  },
+
+  "result": {
+	"item": "jojobizadv:dio_headband",
+	"count": 1
+  }
+}

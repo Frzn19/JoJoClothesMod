@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+	"ABA",
+	"A A"
+  ],
+  "key": {
+	"A": {
+	  "item": "minecraft:wool",
+	  "data": 0
+	},
+	"B": {
+	  "item": "minecraft:gold_ingot"
+	}
+  },
+  "result": {
+	"item": "jojobizadv:jotaro_hat_4",
+	"count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+	"ABA",
+	"A A"
+  ],
+  "key": {
+	"A": {
+	  "item": "minecraft:wool",
+	  "data": 10
+	},
+	"B": {
+	  "item": "minecraft:wool",
+	  "data": 13
+	}
+  },
+  "result": {
+	"item": "jojobizadv:jotaro_hat_6",
+	"count": 1
+  }
+}

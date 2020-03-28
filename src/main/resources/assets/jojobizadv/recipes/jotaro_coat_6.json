@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+	"ACA",
+	"ABA",
+	"ABA"
+  ],
+  "key": {
+	"A": {
+	  "item": "minecraft:wool",
+	  "data":10
+	},
+	"B": {
+	  "item": "minecraft:wool",
+	  "data": 0
+	},
+	"C": {
+	  "item": "minecraft:gold_nugget"
+	}
+  },
+  "result": {
+	"item": "jojobizadv:jotaro_coat_6",
+	"count": 1
+  }
+}

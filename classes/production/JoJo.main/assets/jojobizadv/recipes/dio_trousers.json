@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+	" C ",
+	"ABA",
+	"B B"
+  ],
+  "key": {
+	"A": {
+	  "item": "minecraft:wool",
+	  "data": 4
+	},
+	"B": {
+	  "item": "minecraft:carpet",
+	  "data": 13
+	},
+	"C": {
+	  "item": "minecraft:wool",
+	  "data": 15
+	}
+  },
+  "result": {
+	"item": "jojobizadv:dio_trousers",
+	"count": 1
+  }
+}
