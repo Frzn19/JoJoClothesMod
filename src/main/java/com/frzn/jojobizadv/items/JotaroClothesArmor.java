@@ -1,6 +1,7 @@
 package com.frzn.jojobizadv.items;
 
 import com.frzn.jojobizadv.Main;
+import com.frzn.jojobizadv.Reference;
 import com.frzn.jojobizadv.init.ItemInit;
 import com.frzn.jojobizadv.models.armor.JotaroClothes;
 import com.frzn.jojobizadv.util.interfaces.IHasModel;
@@ -24,7 +25,7 @@ public class JotaroClothesArmor extends ItemArmor implements IHasModel {
 
         super(material, 1, equipmentSlot);
 
-        setUnlocalizedName(name);
+        setTranslationKey(Reference.MODID + "." + name);
         setRegistryName(name);
         setCreativeTab(tab);
         setMaxStackSize(1);
