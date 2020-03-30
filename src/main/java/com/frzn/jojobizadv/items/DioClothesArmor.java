@@ -1,7 +1,6 @@
 package com.frzn.jojobizadv.items;
 
 import com.frzn.jojobizadv.Main;
-import com.frzn.jojobizadv.Reference;
 import com.frzn.jojobizadv.init.ItemInit;
 import com.frzn.jojobizadv.models.armor.DIOClothes;
 import com.frzn.jojobizadv.models.armor.JotaroClothes;
@@ -24,9 +23,7 @@ public class DioClothesArmor extends ItemArmor implements IHasModel {
 
         super(material, 1, equipmentSlot);
 
-        //this.setUnlocalizedName(name);
-        //this.name
-        setTranslationKey(Reference.MODID + "." + name);
+        setUnlocalizedName(name);
         setRegistryName(name);
         setCreativeTab(tab);
         setMaxStackSize(1);

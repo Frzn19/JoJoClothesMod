@@ -12,7 +12,8 @@ public class JojoTab extends CreativeTabs {
     }
 
     @Override
-    public ItemStack createIcon() {
+    public ItemStack getTabIconItem()
+    {
         return new ItemStack(ItemInit.JOTARO_HAT);
     }
 }

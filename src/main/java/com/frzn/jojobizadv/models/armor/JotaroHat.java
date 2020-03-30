@@ -4,7 +4,6 @@ import net.minecraft.client.model.ModelBiped;
 import net.minecraft.client.model.ModelRenderer;
 import net.minecraft.entity.item.EntityArmorStand;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.item.EntityArmorStand;
 
 /**
  * CoolHat - OceanMan
@@ -50,9 +49,6 @@ public class JotaroHat extends ModelBiped {
 
     @Override
     public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5) {
-        if (entity instanceof EntityArmorStand) {
-            f3 = 0;
-        }
         super.render(entity, f, f1, f2, f3, f4, f5);
 
         if (entity instanceof EntityArmorStand) {
